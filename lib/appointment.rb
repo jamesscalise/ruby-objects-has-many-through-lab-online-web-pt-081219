@@ -8,7 +8,7 @@ class Appointment
     @doctor = doctor
   end
   
-  def all
+  def self.all
     @@all
   end
 end
