@@ -19,5 +19,6 @@ class Doctor
   end
   
   def patients
+    Appointment.
   end
 end
