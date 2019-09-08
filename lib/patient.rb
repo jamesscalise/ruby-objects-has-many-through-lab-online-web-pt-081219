@@ -5,6 +5,10 @@ class Patient
     @name = name
   end
   
+  def all
+    @@all
+  end
+  
   def new_appointment(doctor, date)
   end
   
