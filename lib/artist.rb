@@ -18,7 +18,8 @@ class Artist
   end
   
   def genres
-    Genre.all.select{|
+    #Genre.all.select{|
+  end
   
   def self.all
     @@all
