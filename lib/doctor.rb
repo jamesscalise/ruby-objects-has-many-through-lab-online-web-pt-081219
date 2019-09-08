@@ -6,10 +6,15 @@ class Doctor
     @@all << self
   end
   
+  def all
+    @@all
+  end
+  
   def new_appointment
   end
   
   def appointments
+    
   end
   
   def patients
