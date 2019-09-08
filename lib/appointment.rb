@@ -5,4 +5,8 @@ class Appointment
   def initialize(date)
     @date = date
   end
+  
+  def all
+    @@all
+  end
 end
