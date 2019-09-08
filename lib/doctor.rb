@@ -18,6 +18,5 @@ class Doctor
   end
   
   def patients
-    Patient.all.select
   end
 end
